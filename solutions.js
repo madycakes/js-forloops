@@ -170,7 +170,6 @@ function nap(schedule){
    } 
   }
 }
-
 nap(napSchedule);
 
 
@@ -276,6 +275,17 @@ Note, please use two for loops to complete this problem
   */
 
 var guide = [["Honolulu", "Waikiki"], ["Tokyo", "Tsukiji Fish Market"], ["Cairo", "Pyramids"],["Rome", "Colosseum"]];
+
+function sightSeeing(arr){
+  for(var i = 0; i<arr.length; i++){
+    for(var j = 0; j<arr[i].length; j++){
+      console.log(arr[i][j])
+    }
+  }
+  return arr;
+}
+
+sightSeeing(guide);
 
 
 /* 15) Back to School
